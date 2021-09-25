@@ -20,7 +20,12 @@ nnoremap <silent>bd :BufferLineSortByDirectory<CR>
 nnoremap <leader>gs :Git<CR>
 nnoremap <leader>gc :Git commit<CR>
 nnoremap <leader>gp :Git push<CR>
+
 " Fugitive Conflict Resolution
 nnoremap <leader>gd :Gvdiff<CR>
 nnoremap gdh :diffget //2<CR>
 nnoremap gdl :diffget //3<CR>
+
+" Remove search highligh after pressing enter
+nnoremap <CR> :noh<CR><CR>
+
