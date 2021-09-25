@@ -15,6 +15,9 @@ nnoremap <silent>]b :BufferLineCyclePrev<CR>
 nnoremap <silent>be :BufferLineSortByExtension<CR>
 nnoremap <silent>bd :BufferLineSortByDirectory<CR>
 
+" Git help
+nnoremap <leader>gs :Git<CR>
+nnoremap <leader>gc :Git commit<CR>
 " Fugitive Conflict Resolution
 nnoremap <leader>gd :Gvdiff<CR>
 nnoremap gdh :diffget //2<CR>
