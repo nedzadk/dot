@@ -1,11 +1,9 @@
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
-  Plug 'ajmwagar/vim-deus'
+  Plug 'sainnhe/gruvbox-material'
     " FZF
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
   Plug 'stsewd/fzf-checkout.vim'
-  " Syntax highlight
-  Plug 'sheerun/vim-polyglot'
   " Git
   Plug 'tpope/vim-fugitive'
   " Misc
@@ -23,3 +21,5 @@
   Plug 'preservim/nerdtree'
   " Status line
   Plug 'glepnir/galaxyline.nvim' , {'branch': 'main'}
+  " Dashboard
+  Plug 'glepnir/dashboard-nvim'

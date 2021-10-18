@@ -1,4 +1,5 @@
 let g:coc_global_extensions = [
+  \ 'coc-highlight',
   \ 'coc-tsserver', 
   \ 'coc-emoji',
   \ 'coc-json', 
@@ -7,7 +8,9 @@ let g:coc_global_extensions = [
   \ 'coc-yaml', 
   \ 'coc-css', 
   \ 'coc-git', 
-  \ 'coc-vimlsp'
+  \ 'coc-vimlsp',
+  \ 'coc-prisma',
+  \ 'coc-pairs'
   \ ]
 
 nmap <silent> cd <Plug>(coc-definition)

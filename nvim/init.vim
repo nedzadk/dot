@@ -1,3 +1,4 @@
+filetype plugin indent on
 call plug#begin()
   source ~/.config/nvim/plugins.vim
 call plug#end()
@@ -9,7 +10,8 @@ autocmd FileType scss setl iskeyword+=@-@
 
 " Theme setup 
 set background=dark
-colorscheme deus
+let g:gruvbox_material_background = 'medium'
+colorscheme gruvbox-material
 
 " configs
 source ~/.config/nvim/base_setup.vim

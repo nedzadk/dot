@@ -9,6 +9,7 @@ set cmdheight=2
 set updatetime=300
 set signcolumn=number
 set autoindent
+set smartindent
 set number relativenumber
 set tabstop=2
 set shiftwidth=2
