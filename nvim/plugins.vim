@@ -21,3 +21,5 @@
   Plug 'preservim/nerdtree'
   " Status line
   Plug 'glepnir/galaxyline.nvim' , {'branch': 'main'}
+  " Prisma support 
+  Plug 'pantharshit00/vim-prisma'
