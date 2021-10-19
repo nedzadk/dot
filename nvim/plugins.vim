@@ -21,5 +21,3 @@
   Plug 'preservim/nerdtree'
   " Status line
   Plug 'glepnir/galaxyline.nvim' , {'branch': 'main'}
-  " Dashboard
-  Plug 'glepnir/dashboard-nvim'

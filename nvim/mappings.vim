@@ -1,10 +1,16 @@
-nnoremap <C-\> :bw<CR>
+" close buffer
+nnoremap <C-\> :bd!<CR>
+
+" Reaload (n)vim config
 nnoremap <leader>aa :source $MYVIMRC<CR>
 
+" Reset search highlights \
+nnoremap <CR> :noh<CR><CR>
+
+" FuzzyFinder setup 
 nnoremap <C-g> :FzfGFiles<CR>
 nnoremap <C-r> :FzfRg<CR>
 nnoremap <C-p> :FZF<CR>
-nnoremap <leader>r :so $MYVIMRC<CR>
 
 "Buffer line config
 " These commands will navigate through buffers in order regardless of which mode you are using
