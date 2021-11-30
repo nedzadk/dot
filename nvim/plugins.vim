@@ -1,5 +1,6 @@
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'sainnhe/gruvbox-material'
+  Plug 'arcticicestudio/nord-vim'
     " FZF
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
