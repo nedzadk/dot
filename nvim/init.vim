@@ -16,8 +16,8 @@ colorscheme gruvbox-material
 " configs
 source ~/.config/nvim/base_setup.vim
 source ~/.config/nvim/coc.vim
-source ~/.config/nvim/bufferline.vim
 source ~/.config/nvim/statusline.vim
+source ~/.config/nvim/bufferline.vim
 source ~/.config/nvim/nerdtree.vim
 source ~/.config/nvim/mappings.vim
 source ~/.config/nvim/fzf.vim

@@ -13,14 +13,12 @@
   Plug 'tpope/vim-rails'
   Plug 'tpope/vim-dotenv'
   " UI 
-  " Bufferline
-  Plug 'akinsho/nvim-bufferline.lua'
-   " If you want to display icons, then use one of these plugins:
+  Plug 'nvim-lualine/lualine.nvim'
+  Plug 'akinsho/bufferline.nvim'
+   " If you want to display icons, then use one of these plugins:k
   Plug 'kyazdani42/nvim-web-devicons' " lua
   Plug 'ryanoasis/vim-devicons' " vimscript
    " Nerdtree
   Plug 'preservim/nerdtree'
-  " Status line
-  Plug 'glepnir/galaxyline.nvim' , {'branch': 'main'}
   " Prisma support 
   Plug 'pantharshit00/vim-prisma'
