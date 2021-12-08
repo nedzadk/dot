@@ -1,5 +1,5 @@
 " close buffer
-nnoremap <C-\> :bd!<CR>
+nnoremap <C-\> :BufferClose<CR>
 
 " Reaload (n)vim config
 nnoremap <leader>aa :source $MYVIMRC<CR>

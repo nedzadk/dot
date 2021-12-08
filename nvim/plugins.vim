@@ -14,10 +14,12 @@
   Plug 'tpope/vim-dotenv'
   " UI 
   Plug 'nvim-lualine/lualine.nvim'
-  Plug 'akinsho/bufferline.nvim'
+  " Plug 'akinsho/bufferline.nvim'
    " If you want to display icons, then use one of these plugins:k
   Plug 'kyazdani42/nvim-web-devicons' " lua
   Plug 'ryanoasis/vim-devicons' " vimscript
+  " Tab bar
+  Plug 'romgrk/barbar.nvim'
    " Nerdtree
   Plug 'preservim/nerdtree'
   " Prisma support 
