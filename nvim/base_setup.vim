@@ -7,7 +7,7 @@ set nowritebackup
 set showcmd
 set cmdheight=2
 set updatetime=300
-set signcolumn=number
+set signcolumn=yes:2
 set autoindent
 set smartindent
 set number relativenumber
@@ -19,4 +19,3 @@ set showtabline=2
 set laststatus=2
 set cursorline
 set colorcolumn=100
-
