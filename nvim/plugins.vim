@@ -21,7 +21,5 @@
   " Tab bar
   Plug 'romgrk/barbar.nvim'
   Plug 'kyazdani42/nvim-tree.lua'
-   " Nerdtree
-  Plug 'preservim/nerdtree'
   " Prisma support 
   Plug 'pantharshit00/vim-prisma'
