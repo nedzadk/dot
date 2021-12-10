@@ -10,7 +10,8 @@ let g:coc_global_extensions = [
   \ 'coc-git', 
   \ 'coc-vimlsp',
   \ 'coc-prisma',
-  \ 'coc-pairs'
+  \ 'coc-pairs',
+  \ 'coc-lua'
   \ ]
 
 nmap <silent> cd <Plug>(coc-definition)

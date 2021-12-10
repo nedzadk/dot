@@ -7,7 +7,7 @@ set nowritebackup
 set showcmd
 set cmdheight=2
 set updatetime=300
-set signcolumn=yes:2
+set signcolumn=auto:2
 set autoindent
 set smartindent
 set number relativenumber
