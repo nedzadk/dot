@@ -13,6 +13,8 @@ set background=dark
 let g:gruvbox_material_background = 'medium'
 colorscheme gruvbox-material
 
+lua require'nvim-tree'.setup {auto_close = true, view = { width = 40, hide_root_folder = true } }
+
 " configs
 source ~/.config/nvim/base_setup.vim
 source ~/.config/nvim/coc.vim
@@ -20,5 +22,5 @@ source ~/.config/nvim/statusline.vim
 source ~/.config/nvim/barbar.vim
 source ~/.config/nvim/mappings.vim
 source ~/.config/nvim/fzf.vim
-source ~/.config/nvim/tree.lua
-source ~/.config/nvim/nvim-tree.lua
+source ~/.config/nvim/lua/nechko/tree.lua
+source ~/.config/nvim/lua/nechko/nvim-tree.lua

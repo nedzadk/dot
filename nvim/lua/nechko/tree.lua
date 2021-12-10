@@ -1,18 +1,10 @@
-require'nvim-tree'.setup {
-  auto_close = true,
-  view = {
-    width = 40,
-    hide_root_folder = true
-  }
-}
-
 local tree ={}
 
-tree.toggle = function () 
+tree.toggle = function ()
   require'nvim-tree'.toggle()
 end
 
-tree.close = function () 
+tree.close = function ()
   require'nvim-tree'.close()
 end
 
