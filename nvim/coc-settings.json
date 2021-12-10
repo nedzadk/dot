@@ -8,7 +8,8 @@
     "graphql",
     "html",
     "yaml",
-    "json"
+    "json",
+    "lua"
   ],
   "tsserver.tsdk": "",
   "prettier.singleQuote": true,
