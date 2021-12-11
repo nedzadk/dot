@@ -1,4 +1,5 @@
-" Basic config
+set noswapfile
+set scrolloff=5
 set termguicolors
 set encoding=utf-8
 set hidden

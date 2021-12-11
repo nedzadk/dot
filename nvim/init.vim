@@ -8,15 +8,14 @@ let mapleader=" "
 
 autocmd FileType scss setl iskeyword+=@-@
 
-" Theme setup 
 set background=dark
 let g:gruvbox_material_background = 'medium'
 colorscheme gruvbox-material
 
 lua require'nvim-tree'.setup {auto_close = true, view = { width = 40, hide_root_folder = true } }
 
-" configs
-source ~/.config/nvim/base_setup.vim
+
+source ~/.config/nvim/basic.vim
 source ~/.config/nvim/coc.vim
 source ~/.config/nvim/statusline.vim
 source ~/.config/nvim/barbar.vim
