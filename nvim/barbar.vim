@@ -1,9 +1,9 @@
 " Move to previous/next
-nnoremap <silent>    <C-,> :BufferPrevious<CR>
-nnoremap <silent>    <C-.> :BufferNext<CR>
+nnoremap <leader>[ :BufferPrevious<CR>
+nnoremap <leader>] :BufferNext<CR>
 " Re-order to previous/next
-nnoremap <silent>    <C-<> :BufferMovePrevious<CR>
-nnoremap <silent>    <C->> :BufferMoveNext<CR>
+nnoremap <leader>, :BufferMovePrevious<CR>
+nnoremap <leader>. :BufferMoveNext<CR>
 " Goto buffer in position...
 nnoremap <leader>1 :BufferGoto 1<CR>
 nnoremap <leader>2 :BufferGoto 2<CR>
