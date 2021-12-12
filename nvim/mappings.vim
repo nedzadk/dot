@@ -1,7 +1,7 @@
 " close buffer
 nnoremap <C-\> :BufferClose<CR>
 " buffer delete
-nnoremap <leader>dd :bd!<CR>
+nnoremap <leader>dd :BufferWipeout<CR>
 
 " Reaload (n)vim config
 nnoremap <leader>aa :source $MYVIMRC<CR>
