@@ -21,3 +21,5 @@
   Plug 'kyazdani42/nvim-tree.lua'
   " Prisma support 
   Plug 'pantharshit00/vim-prisma'
+  " TODO list 
+  Plug 'vuciv/vim-bujo'

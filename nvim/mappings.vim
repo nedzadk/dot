@@ -27,3 +27,11 @@ nnoremap gdl :diffget //3<CR>
 " Remove search highligh after pressing enter
 nnoremap <CR> :noh<CR><CR>
 
+" Bujo TODO
+nmap <Leader>td :Todo<CR>
+nmap <Leader>tg :Todo g<CR>
+nmap <Leader>tu <Plug>BujoChecknormal
+nmap <Leader>th <Plug>BujoAddnormal
+let g:bujo#todo_file_path = $HOME . "/.cache/bujo"
+let g:bujo#window_width = 40
+
