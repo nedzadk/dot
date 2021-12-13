@@ -13,7 +13,6 @@ let g:gruvbox_material_background = 'medium'
 colorscheme gruvbox-material
 
 lua require'nvim-tree'.setup {auto_close = true, view = { width = 40, hide_root_folder = true } }
-let g:nvim_tree_ignore = [ '.git', 'node_modules', '.cache' ]
 let g:nvim_tree_quit_on_open = 1
 
 source ~/.config/nvim/basic.vim
