@@ -1,4 +1,5 @@
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  Plug 'sheerun/vim-polyglot'
   Plug 'sainnhe/gruvbox-material'
   Plug 'arcticicestudio/nord-vim'
     " FZF
