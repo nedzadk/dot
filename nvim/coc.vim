@@ -1,5 +1,6 @@
 let g:coc_global_extensions = [
   \ 'coc-highlight',
+  \ 'coc-solargraph',
   \ 'coc-tsserver', 
   \ 'coc-emoji',
   \ 'coc-json', 
