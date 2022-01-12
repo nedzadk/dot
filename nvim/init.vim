@@ -7,10 +7,10 @@ nnoremap <SPACE> <Nop>
 let mapleader=" "
 
 autocmd FileType scss setl iskeyword+=@-@
-
-set background=dark
-let g:gruvbox_material_background = 'medium'
-colorscheme gruvbox-material
+let g:onedark_config = {
+    \ 'style': 'darker',
+\}
+colorscheme onedark
 
 lua require'nvim-tree'.setup {auto_close = true, view = { width = 40, hide_root_folder = true } }
 let g:nvim_tree_quit_on_open = 1
