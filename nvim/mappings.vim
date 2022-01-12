@@ -10,12 +10,13 @@ nnoremap <leader>aa :source $MYVIMRC<CR>
 nnoremap <CR> :noh<CR><CR>
 
 " FuzzyFinder setup 
-nnoremap <leader>gg :FzfGFiles<CR>
-nnoremap <leader>rr :FzfRg<CR>
-nnoremap <leader>pp :Clap files<CR>
-" Find in current fil
-nnoremap <leader>ff :Clap blines<CR>
-nnoremap <leader>bb :Clap buffers<CR>
+nnoremap <leader>rr <cmd>Telescope live_grep<CR>
+nnoremap <leader>pp <cmd>Telescope find_files<CR>
+nnoremap <leader>ff <cmd>Telescope grep_string<CR>
+nnoremap <leader>bb <cmd>Telescope buffers<CR>
+nnoremap <leader>ggc <cmd>Telescope git_commits<CR>
+nnoremap <leader>ggb <cmd>Telescope git_branches<CR>
+nnoremap <leader>ggs <cmd>Telescope git_stash<CR>
 
 " Git help
 nnoremap <leader>gs :Git<CR>

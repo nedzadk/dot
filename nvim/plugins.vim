@@ -2,6 +2,8 @@
   Plug 'sheerun/vim-polyglot'
   Plug 'navarasu/onedark.nvim'
   " FZF
+  Plug 'nvim-lua/plenary.nvim'
+  Plug 'nvim-telescope/telescope.nvim'
   Plug 'liuchengxu/vim-clap'
   " Git
   Plug 'tpope/vim-fugitive'
