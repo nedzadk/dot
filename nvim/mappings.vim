@@ -9,11 +9,12 @@ nnoremap <leader>aa :source $MYVIMRC<CR>
 " Reset search highlights \
 nnoremap <CR> :noh<CR><CR>
 
-" FuzzyFinder setup 
+" Telescope setup 
 nnoremap <leader>rr <cmd>Telescope live_grep<CR>
 nnoremap <leader>pp <cmd>Telescope find_files<CR>
 nnoremap <leader>ff <cmd>Telescope grep_string<CR>
 nnoremap <leader>bb <cmd>Telescope buffers<CR>
+" Telescope fit search
 nnoremap <leader>ggc <cmd>Telescope git_commits<CR>
 nnoremap <leader>ggb <cmd>Telescope git_branches<CR>
 nnoremap <leader>ggs <cmd>Telescope git_stash<CR>
