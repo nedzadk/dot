@@ -2,7 +2,7 @@
   Plug 'sheerun/vim-polyglot'
   Plug 'navarasu/onedark.nvim'
   Plug 'sainnhe/gruvbox-material'
-    " FZF
+  " FZF
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
   Plug 'stsewd/fzf-checkout.vim'
