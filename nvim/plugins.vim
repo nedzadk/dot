@@ -2,9 +2,7 @@
   Plug 'sheerun/vim-polyglot'
   Plug 'navarasu/onedark.nvim'
   " FZF
-  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-  Plug 'junegunn/fzf.vim'
-  Plug 'stsewd/fzf-checkout.vim'
+  Plug 'liuchengxu/vim-clap'
   " Git
   Plug 'tpope/vim-fugitive'
   " Misc

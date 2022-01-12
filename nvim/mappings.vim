@@ -10,9 +10,12 @@ nnoremap <leader>aa :source $MYVIMRC<CR>
 nnoremap <CR> :noh<CR><CR>
 
 " FuzzyFinder setup 
-nnoremap <C-g> :FzfGFiles<CR>
-nnoremap <C-r> :FzfRg<CR>
-nnoremap <C-p> :FZF<CR>
+nnoremap <leader>gg :FzfGFiles<CR>
+nnoremap <leader>rr :FzfRg<CR>
+nnoremap <leader>pp :Clap files<CR>
+" Find in current fil
+nnoremap <leader>ff :Clap blines<CR>
+nnoremap <leader>bb :Clap buffers<CR>
 
 " Git help
 nnoremap <leader>gs :Git<CR>
