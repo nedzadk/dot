@@ -1,7 +1,6 @@
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'sheerun/vim-polyglot'
   Plug 'navarasu/onedark.nvim'
-  Plug 'sainnhe/gruvbox-material'
   " FZF
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
