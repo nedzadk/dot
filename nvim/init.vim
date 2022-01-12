@@ -1,4 +1,4 @@
-filetype plugin indent on
+  filetype plugin indent on
 call plug#begin()
   source ~/.config/nvim/plugins.vim
 call plug#end()
@@ -8,7 +8,7 @@ let mapleader=" "
 
 autocmd FileType scss setl iskeyword+=@-@
 let g:onedark_config = {
-    \ 'style': 'darker',
+    \ 'style': 'deep',
 \}
 colorscheme onedark
 
