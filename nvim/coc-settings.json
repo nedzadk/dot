@@ -9,7 +9,9 @@
     "html",
     "yaml",
     "json",
-    "lua"
+    "lua",
+    "rails",
+    "markdown"
   ],
   "tsserver.tsdk": "",
   "prettier.singleQuote": true,
