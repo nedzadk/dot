@@ -20,15 +20,15 @@ scrolling:
 
 font:
   normal:
-    family: FiraCode Nerd Font
-    style: Retina
+    family: Hack Nerd Font
+    style: Regular
   bold:
-    family: FiraCode Nerd Font
+    family: Hack Nerd Font
     style: Bold
   italic:
-    family: Fira Code
+    family: Hack Nerd Font
     style: Italic
-  size: 15
+  size: 16
 
 colors:
   # Colors (One Dark)
@@ -58,4 +58,4 @@ colors:
     cyan: '0x56b6c2'
     white: '0xffffff'
 
-background_opacity: 0.99
+background_opacity: 1

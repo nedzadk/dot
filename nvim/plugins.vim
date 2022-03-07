@@ -2,6 +2,7 @@
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'sheerun/vim-polyglot'
   Plug 'navarasu/onedark.nvim'
+  Plug 'ajmwagar/vim-deus'
   " FZF
   Plug 'nvim-lua/plenary.nvim'
   Plug 'nvim-telescope/telescope.nvim'
