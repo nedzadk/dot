@@ -23,6 +23,8 @@ return require('packer').startup(function(use)
   use 'nvim-telescope/telescope.nvim'
   use 'nvim-treesitter/nvim-treesitter'
 
+  use 'akinsho/bufferline.nvim'
+
   if packer_bootstrap then
     require('packer').sync()
   end
