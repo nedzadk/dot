@@ -3,6 +3,10 @@ require 'keys'
 require 'plugins'
 
 require'nvim-tree'.setup {
+  update_focused_file = {
+    enable = true,
+    update_cwd = true,
+  },
   view = {
     width = 30,
     height = 30,
