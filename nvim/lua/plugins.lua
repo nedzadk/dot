@@ -18,10 +18,14 @@ return require('packer').startup(function(use)
   use 'nvim-lua/plenary.nvim'
   use 'kyazdani42/nvim-web-devicons'
   use 'kyazdani42/nvim-tree.lua'
-  use 'nvim-lualine/lualine.nvim'
+  use 'feline-nvim/feline.nvim'
   use 'navarasu/onedark.nvim'
   use 'nvim-telescope/telescope.nvim'
   use 'nvim-treesitter/nvim-treesitter'
+
+  use 'windwp/nvim-autopairs'
+
+  use 'lewis6991/gitsigns.nvim'
 
   use 'akinsho/bufferline.nvim'
 

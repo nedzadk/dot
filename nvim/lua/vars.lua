@@ -26,3 +26,4 @@ set.hlsearch = true
 set.signcolumn = "yes"
 set.clipboard = "unnamedplus"
 
+set.termguicolors = true

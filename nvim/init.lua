@@ -20,7 +20,9 @@ require'nvim-tree'.setup {
 }
 
 require'nvim-treesitter.configs'.setup {}
-require'lualine'.setup {}
+require'feline'.setup {}
+require'nvim-autopairs'.setup {}
+require'gitsigns'.setup {}
 
 require'lspconfig'.tsserver.setup {}
 
