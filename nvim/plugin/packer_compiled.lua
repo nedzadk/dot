@@ -69,10 +69,10 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  ["bufferline.nvim"] = {
+  ["barbar.nvim"] = {
     loaded = true,
-    path = "/Users/nedzad/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
-    url = "https://github.com/akinsho/bufferline.nvim"
+    path = "/Users/nedzad/.local/share/nvim/site/pack/packer/start/barbar.nvim",
+    url = "https://github.com/romgrk/barbar.nvim"
   },
   ["cmp-buffer"] = {
     loaded = true,
@@ -94,11 +94,6 @@ _G.packer_plugins = {
     path = "/Users/nedzad/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
-  ["feline.nvim"] = {
-    loaded = true,
-    path = "/Users/nedzad/.local/share/nvim/site/pack/packer/start/feline.nvim",
-    url = "https://github.com/feline-nvim/feline.nvim"
-  },
   ["github-colors"] = {
     loaded = true,
     path = "/Users/nedzad/.local/share/nvim/site/pack/packer/start/github-colors",
@@ -108,6 +103,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/nedzad/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/Users/nedzad/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,

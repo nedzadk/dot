@@ -15,6 +15,7 @@ set.ignorecase = true
 set.breakindent = true
 
 set.cursorline = true
+set.cmdheight = 2
 
 set.updatetime = 250
 set.timeoutlen = 500

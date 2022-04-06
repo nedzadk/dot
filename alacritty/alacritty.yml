@@ -1,12 +1,8 @@
-env:
-  TERM: xterm-256color
-
 window:
   decorations: buttonless
   padding:
     x: 10
     y: 10
-
     dynamic_padding: true
 
     title: Alacritty
@@ -28,7 +24,7 @@ font:
   italic:
     family: TerminessTTF Nerd Font Mono
     style: Bold Italic
-  size: 19
+  size: 20
 
 # onedarkpro.nvim - onedark
 colors:

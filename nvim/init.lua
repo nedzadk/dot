@@ -23,13 +23,12 @@ require'nvim-treesitter.configs'.setup {
     enable = true
   }
 }
-require'feline'.setup {}
+require'lualine'.setup {}
 require'nvim-autopairs'.setup {}
 require'gitsigns'.setup {}
 require'lspconfig'.tsserver.setup {}
 require'onedarkpro'.load()
 require'telescope'.setup {}
-require'bufferline'.setup {}
 -- Setup nvim-cmp.
 local cmp = require'cmp'
 
