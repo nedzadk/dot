@@ -94,6 +94,11 @@ _G.packer_plugins = {
     path = "/Users/nedzad/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
+  ["git-blame.nvim"] = {
+    loaded = true,
+    path = "/Users/nedzad/.local/share/nvim/site/pack/packer/start/git-blame.nvim",
+    url = "https://github.com/f-person/git-blame.nvim"
+  },
   ["github-colors"] = {
     loaded = true,
     path = "/Users/nedzad/.local/share/nvim/site/pack/packer/start/github-colors",
@@ -171,6 +176,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/nedzad/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "/Users/nedzad/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
   },
   ["vim-vsnip"] = {
     loaded = true,

@@ -5,6 +5,7 @@ local set = vim.opt
 
 g.t_co = 256
 g.background = "dark"
+g.gitblame_enabled = 0
 
 set.tabstop = 2
 set.shiftwidth = 2

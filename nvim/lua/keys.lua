@@ -26,4 +26,5 @@ map('n', ' 0', [[:BufferLast<CR>]], {})
 map('n', ']', [[:BufferNext<CR>]], {})
 map('n', '[', [[:BufferPrevious<CR>]], {})
 
-
+-- [[ GIT BLAME TOGGLE ]]
+map('n', ' gb', [[:GitBlameToggle<CR>]], {})

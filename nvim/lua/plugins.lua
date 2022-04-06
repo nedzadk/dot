@@ -27,8 +27,10 @@ return require('packer').startup(function(use)
   use 'navarasu/onedark.nvim'
   use 'olimorris/onedarkpro.nvim'
   use 'lourenci/github-colors'
-
+  -- [[ GIT STUFF]]
   use 'lewis6991/gitsigns.nvim'
+  use 'f-person/git-blame.nvim'
+  use 'tpope/vim-fugitive'
 
   use 'romgrk/barbar.nvim'
   require('packer').use({
