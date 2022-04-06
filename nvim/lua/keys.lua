@@ -6,7 +6,10 @@ map('n', 'q', [[:bd<CR>]], {})
 
 -- [[ TELESCOPE MAPPINGS ]] 
 map('n', ' ff', [[:Telescope find_files<CR>]], {})
+map('n', ' fg', [[:Telescope live_grep<CR>]], {})
 map('n', ' fb', [[:Telescope buffers<CR>]], {})
+-- [[ CODE ACTION MENU KEY]]
+map('n', ' cd', [[:CodeActionMenu<CR>]], {})
 
 -- [[ BufferLine mappings ]]
 map('n', ' 1', [[<Cmd>BufferLineGoToBuffer1<CR>]], {})

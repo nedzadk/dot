@@ -1,7 +1,6 @@
 require 'vars'
 require 'keys'
 require 'plugins'
-
 require'nvim-tree'.setup {
   update_focused_file = {
     enable = true,
@@ -19,18 +18,17 @@ require'nvim-tree'.setup {
   },
 }
 
-require'nvim-treesitter.configs'.setup {}
+require'nvim-treesitter.configs'.setup {
+  highlight = {
+    enable = true
+  }
+}
 require'feline'.setup {}
 require'nvim-autopairs'.setup {}
 require'gitsigns'.setup {}
-
 require'lspconfig'.tsserver.setup {}
-
+require'onedarkpro'.load()
 require'telescope'.setup {}
-require'onedark'.setup {
-  style = "darker"
-}
-require'onedark'.load()
 require'bufferline'.setup {}
 -- Setup nvim-cmp.
 local cmp = require'cmp'
@@ -86,3 +84,4 @@ cmp.setup.cmdline(':', {
   })
 })
 
+require 'opts'

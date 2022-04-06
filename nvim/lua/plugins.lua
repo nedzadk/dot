@@ -19,15 +19,22 @@ return require('packer').startup(function(use)
   use 'kyazdani42/nvim-web-devicons'
   use 'kyazdani42/nvim-tree.lua'
   use 'feline-nvim/feline.nvim'
-  use 'navarasu/onedark.nvim'
   use 'nvim-telescope/telescope.nvim'
   use 'nvim-treesitter/nvim-treesitter'
-
   use 'windwp/nvim-autopairs'
+
+  -- [[ COLOR THEMES]]
+  use 'navarasu/onedark.nvim'
+  use 'olimorris/onedarkpro.nvim'
+  use 'lourenci/github-colors'
 
   use 'lewis6991/gitsigns.nvim'
 
   use 'akinsho/bufferline.nvim'
+  require('packer').use({
+    'weilbith/nvim-code-action-menu',
+    cmd = 'CodeActionMenu',
+  })
 
   if packer_bootstrap then
     require('packer').sync()
