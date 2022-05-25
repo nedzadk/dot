@@ -29,6 +29,10 @@ require'gitsigns'.setup {}
 require'lspconfig'.tsserver.setup {}
 require'onedarkpro'.load()
 require'telescope'.setup {}
+require'indent_blankline'.setup {
+  show_current_context = true,
+  show_current_context_start = true,
+}
 -- Setup nvim-cmp.
 local cmp = require'cmp'
 

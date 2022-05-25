@@ -33,6 +33,7 @@ return require('packer').startup(function(use)
   use 'tpope/vim-fugitive'
 
   use 'romgrk/barbar.nvim'
+  use 'lukas-reineke/indent-blankline.nvim'
   require('packer').use({
     'weilbith/nvim-code-action-menu',
     cmd = 'CodeActionMenu',
