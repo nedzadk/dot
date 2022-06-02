@@ -17,6 +17,10 @@ call plug#begin()
   " Func
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'yuki-yano/fzf-preview.vim', { 'branch': 'release/rpc' }
+  " JS
+  Plug 'yuezk/vim-js'
+  Plug 'HerringtonDarkholme/yats.vim'
+  Plug 'maxmellon/vim-jsx-pretty'
 call plug#end()
 
 " Basic vim setup 
@@ -77,3 +81,6 @@ let g:coc_global_extensions = ['coc-tslint-plugin', 'coc-tsserver', 'coc-css', '
 
 nnoremap <leader>ff :CocCommand fzf-preview.GitFiles<CR>
 nnoremap <leader>fs :CocCommand fzf-preview.GitStatus<CR>
+
+" Git
+nnoremap <leader>gb :GitBlameToggle<CR>
