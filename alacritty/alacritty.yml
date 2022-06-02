@@ -1,5 +1,6 @@
 window:
   decorations: buttonless
+  opacity: 0.95
   padding:
     x: 10
     y: 10
@@ -59,5 +60,3 @@ colors:
   selection:
     text: CellForeground
     background: "#3e4452"
-
-window.opacity: 1
