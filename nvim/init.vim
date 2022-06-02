@@ -17,6 +17,7 @@ call plug#begin()
   " Func
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'yuki-yano/fzf-preview.vim', { 'branch': 'release/rpc' }
+  Plug 'tpope/vim-fugitive'
   " JS
   Plug 'yuezk/vim-js'
   Plug 'HerringtonDarkholme/yats.vim'
@@ -38,7 +39,6 @@ set relativenumber
 set ruler
 set wrap
 set textwidth=120
-set formatoptions=tcqrn1
 
 set tabstop=2
 set shiftwidth=2
@@ -77,7 +77,19 @@ nnoremap <leader>0 :BufferPrevious<CR>
 nnoremap <leader>bd :BufferClose<CR>
 
 "COC Stuff
-let g:coc_global_extensions = ['coc-tslint-plugin', 'coc-tsserver', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-git', 'coc-eslint', 'coc-highlight', 'coc-fzf-preview', 'coc-lightbulb', 'coc-svg']
+let g:coc_global_extensions = [
+      \ 'coc-tslint-plugin', 
+      \ 'coc-tsserver', 
+      \ 'coc-css',
+      \ 'coc-html', 
+      \ 'coc-json',
+      \ 'coc-prettier',
+      \ 'coc-git',
+      \ 'coc-eslint',
+      \ 'coc-highlight',
+      \ 'coc-fzf-preview',
+      \ 'coc-lightbulb',
+      \ 'coc-svg']
 
 nnoremap <leader>ff :CocCommand fzf-preview.GitFiles<CR>
 nnoremap <leader>fs :CocCommand fzf-preview.GitStatus<CR>
