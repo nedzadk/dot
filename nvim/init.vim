@@ -55,13 +55,20 @@ let g:onedark_config = {
 
 lua << END
 require('lualine').setup {}
-require('nvim-tree').setup {}
+require('nvim-tree').setup {
+  actions = {
+    open_file = {
+      quit_on_open = true,
+    }
+  }
+}
 END
 
 colorscheme onedark
 
 " Keys 
-nnoremap <leader>n :NvimTreeToggle<CR>
+nnoremap <C-n> :NvimTreeToggle<CR>
+nnoremap <leader>nf :NvimTreeFindFile<CR>
 
 " BufferLine
 nnoremap <leader>1 :BufferGoto 1<CR>
@@ -74,9 +81,9 @@ nnoremap <leader>7 :BufferGoto 7<CR>
 nnoremap <leader>8 :BufferGoto 8<CR>
 nnoremap <leader>9 :BufferNext<CR>
 nnoremap <leader>0 :BufferPrevious<CR>
-nnoremap <leader>bd :BufferClose<CR>
+nnoremap <leader>q :BufferClose<CR>
 
-"COC Stuff
+" COC Stuff
 let g:coc_global_extensions = [
       \ 'coc-tslint-plugin', 
       \ 'coc-tsserver', 
@@ -93,6 +100,14 @@ let g:coc_global_extensions = [
 
 nnoremap <leader>ff :CocCommand fzf-preview.GitFiles<CR>
 nnoremap <leader>fs :CocCommand fzf-preview.GitStatus<CR>
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
+nmap <leader>rn <Plug>(coc-rename)
+" Formatting selected code.
+xmap <leader>f  <Plug>(coc-format-selected)
+nmap <leader>f  <Plug>(coc-format-selected)
 
 " Git
 nnoremap <leader>gb :GitBlameToggle<CR>
