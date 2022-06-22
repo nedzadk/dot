@@ -22,6 +22,8 @@ call plug#begin()
   Plug 'yuezk/vim-js'
   Plug 'HerringtonDarkholme/yats.vim'
   Plug 'maxmellon/vim-jsx-pretty'
+  " Copilot
+  Plug 'github/copilot.vim'
 call plug#end()
 
 " Basic vim setup 
