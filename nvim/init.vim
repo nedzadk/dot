@@ -18,6 +18,7 @@ call plug#begin()
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'yuki-yano/fzf-preview.vim', { 'branch': 'release/rpc' }
   Plug 'tpope/vim-fugitive'
+  Plug 'f-person/git-blame.nvim'
   " JS
   Plug 'yuezk/vim-js'
   Plug 'HerringtonDarkholme/yats.vim'
@@ -40,7 +41,7 @@ set completeopt=noinsert,menuone,noselect
 set relativenumber
 set ruler
 set wrap
-set textwidth=120
+set textwidth=80
 
 set tabstop=2
 set shiftwidth=2
@@ -81,9 +82,9 @@ nnoremap <leader>5 :BufferGoto 5<CR>
 nnoremap <leader>6 :BufferGoto 6<CR>
 nnoremap <leader>7 :BufferGoto 7<CR>
 nnoremap <leader>8 :BufferGoto 8<CR>
-nnoremap <leader>9 :BufferNext<CR>
-nnoremap <leader>0 :BufferPrevious<CR>
-nnoremap <leader>q :BufferClose<CR>
+nnoremap <leader>9 :BufferPrevious<CR>
+nnoremap <leader>0 :BufferNext<CR>
+nnoremap <leader>ww :BufferClose<CR>
 
 " COC Stuff
 let g:coc_global_extensions = [
@@ -102,6 +103,7 @@ let g:coc_global_extensions = [
 
 nnoremap <leader>ff :CocCommand fzf-preview.GitFiles<CR>
 nnoremap <leader>fs :CocCommand fzf-preview.GitStatus<CR>
+nnoremap <leader>fp :CocCommand fzf-preview.DirectoryFiles<CR>
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
